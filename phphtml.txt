@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Avancé</title>
+    <link rel="stylesheet" href="php.prj.css">
+</head>
+<body>
+    <header>
+        <h1> < Bienvenue sur ma page > </h1>
+    </header>
+
+    <section id="about">
+        <h2>À propos de moi :</h2>
+        <p>Bonjour, je m'appelle Rim Nabil et je suis actuellement étudiante en 3IIR. à L EMSI. J'ai un vif intérêt pour la creation des jeux video. et je cherche constamment à approfondir mes connaissances dans ce domaine. Je suis particulièrement motivé(e) par les opportunités de mettre en pratique mes compétences et d’acquérir de nouvelles expériences dans un environnement professionnel stimulant.. Voici une photo de moi :</p>
+        <img src="hhhana.jpg" alt="Mon Image">
+    </section>
+
+    <section id="hobbies">
+        <h2>Mes Hobbies et Objectifs : </h2>
+        <ol>
+
+             <li>dormir </li>
+             <li>dessiner</li>
+             <li>jouer a des jeux video</li>
+
+        </ol>
+        <ul>
+            <li>Développer des compétences pour résoudre des problèmes</li>
+            <li>Création des applications et des logiciels</li>
+            
+        </ul>
+    </section>
+
+    <section id="friends">
+        <h2>Tableau de mes Amis</h2>
+        <table>
+            <tr>
+                <th>Nom</th>
+                <th>Âge</th>
+                <th>Ville</th>
+                <th>Profil</th>
+            </tr>
+            <tr>
+                <td>Mariya Rohessalam</td>
+                <td>20</td>
+                <td>El jadida</td>
+                <td><a href="#">Voir le profil</a></td>
+            </tr>
+            <tr>
+                <td>Hajar xxxx</td>
+                <td>20</td>
+                <td>El jadida</td>
+                <td><a href="#">Voir le profil</a></td>
+            </tr>
+            <tr>
+                <td>Arwa XXXX</td>
+                <td>20</td>
+                <td>eljadida</td>
+                <td><a href="#">Voir le profil</a></td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Formulaire de Contact</h2>
+        <form id="contactForm">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea><br><br>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <script src="php.prj.js"></script>
+</body>
+</html>
